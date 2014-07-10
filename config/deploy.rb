@@ -3,7 +3,7 @@ lock '3.2.1'
 
 set :application, 'sci07'
 set :repo_url, 'git@github.com:davidjconnolly/sci07'
-set :deploy_to, '/web/default/sci07'
+set :deploy_to, '/web/sci07'
 
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }.call
